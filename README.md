@@ -64,9 +64,9 @@ Trends are consistent with existing climate change research on warming temperatu
 🚀 How to Run
 # Clone the repository
 git clone https://github.com/opohotz/BloomWatch.git
-cd BloomWatch
 
 # Install dependencies
+cd BloomWatch
 pip install -r requirements.txt
 
 # Run analysis scripts
