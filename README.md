@@ -17,13 +17,13 @@ Key finding:
 
 🧠 Key Objectives
 
-Process large remote sensing datasets efficiently using batch workflows
+> Process large remote sensing datasets efficiently using batch workflows
 
-Analyze seasonal and regional bloom timing across multiple years
+> Analyze seasonal and regional bloom timing across multiple years
 
-Visualize trends to detect shifts in plant phenology
+> Visualize trends to detect shifts in plant phenology
 
-Correlate observed changes with known climate patterns
+> Correlate observed changes with known climate patterns
 
 🛠️ Tech Stack
 
@@ -37,29 +37,29 @@ NASA AppEEARS – remote sensing data retrieval
 
 Data Collection
 
-Retrieved multi-year vegetation and phenology data from NASA AppEEARS
+> Retrieved multi-year vegetation and phenology data from NASA AppEEARS
 
-Used batch processing workflows to handle large datasets efficiently
+> Used batch processing workflows to handle large datasets efficiently
 
 Data Processing
 
-Cleaned and normalized raw satellite data using Pandas
+> Cleaned and normalized raw satellite data using Pandas
 
-Aggregated bloom indicators by season, year, and geographic region
+> Aggregated bloom indicators by season, year, and geographic region
 
 Analysis
 
-Compared bloom onset timing across years and regions
+> Compared bloom onset timing across years and regions
 
-Identified long-term trends and anomalies in northern vs. southern regions
+> Identified long-term trends and anomalies in northern vs. southern regions
 
 📈 Results
 
-Clear seasonal bloom patterns emerged across regions
+> Clear seasonal bloom patterns emerged across regions
 
-Northern regions exhibited an average 2-week earlier bloom onset
+> Northern regions exhibited an average 2-week earlier bloom onset
 
-Trends are consistent with existing climate change research on warming temperatures
+> Trends are consistent with existing climate change research on warming temperatures
 
 🚀 How to Run
 # Clone the repository
@@ -70,25 +70,25 @@ cd BloomWatch
 pip install -r requirements.txt
 
 # Run analysis scripts
-cd Backend
+cd BackEnd
 python app.py
 
 🌍 Why This Matters
 
-Understanding shifts in plant bloom timing is critical for:
+> Understanding shifts in plant bloom timing is critical for:
 
-Climate change research
+> Climate change research
 
-Agriculture and ecosystem planning
+> Agriculture and ecosystem planning
 
-Environmental monitoring and policy
+> Environmental monitoring and policy
 
 BloomWatch demonstrates how satellite data and data science tools can be combined to extract real-world environmental insights.
 
 📌 Future Improvements
 
-Integrate temperature and precipitation datasets for deeper correlation analysis
+> Integrate temperature and precipitation datasets for deeper correlation analysis
 
-Expand analysis to additional geographic regions
+> Expand analysis to additional geographic regions
 
-Automate AppEEARS data retrieval via API workflows
+> Automate AppEEARS data retrieval via API workflows
