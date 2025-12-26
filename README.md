@@ -33,8 +33,6 @@ Pandas – data cleaning, aggregation, and time-series analysis
 
 NASA AppEEARS – remote sensing data retrieval
 
-Matplotlib & Seaborn – data visualization and trend analysis
-
 📊 Methodology
 
 Data Collection
@@ -55,12 +53,6 @@ Compared bloom onset timing across years and regions
 
 Identified long-term trends and anomalies in northern vs. southern regions
 
-Visualization
-
-Generated seasonal trend plots and regional comparisons
-
-Highlighted temporal shifts in bloom timing using line plots and heatmaps
-
 📈 Results
 
 Clear seasonal bloom patterns emerged across regions
@@ -71,23 +63,15 @@ Trends are consistent with existing climate change research on warming temperatu
 
 🚀 How to Run
 # Clone the repository
-git clone https://github.com/your-username/BloomWatch.git
+git clone https://github.com/opohotz/BloomWatch.git
 cd BloomWatch
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run analysis scripts
-python analysis.py
-
-📁 Project Structure
-BloomWatch/
-├── data/                # Raw and processed NASA AppEEARS data
-├── notebooks/           # Exploratory analysis notebooks
-├── src/                 # Data processing and visualization scripts
-├── visuals/             # Generated plots and figures
-├── requirements.txt
-└── README.md
+cd Backend
+python app.py
 
 🌍 Why This Matters
 
