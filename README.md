@@ -66,11 +66,11 @@ Analysis
 git clone https://github.com/opohotz/BloomWatch.git
 
 # Install dependencies
-cd BloomWatch
+cd BloomWatch | 
 pip install -r requirements.txt
 
 # Run analysis scripts
-cd BackEnd
+cd BackEnd | 
 python app.py
 
 🌍 Why This Matters
